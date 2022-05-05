@@ -1,4 +1,3 @@
-use std::error::Error;
 use lambda_runtime::{service_fn, LambdaEvent, Error};
 use serde_json::{json, Value};
 
